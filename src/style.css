@@ -1,0 +1,113 @@
+body {
+  color: #111;
+}
+.home-body-bg {
+  background: url("././images/homeBg.png") no-repeat 0 0;
+  height: 870px;
+  width: 100%;
+  background-size: contain;
+}
+.la-mountain-bg {
+  background: url("./images/LAMountain.png") no-repeat center center;
+  height: 290px;
+  width: 430px;
+  background-size: contain;
+  margin: auto;
+}
+.main-container {
+  margin: 0 auto;
+}
+header {
+  padding: 20px 0;
+  background: #fff;
+}
+header a,
+header a:hover {
+  color: #414f6b;
+  text-decoration: underline;
+  display: inline-block;
+  padding: 0 15px;
+}
+.home header {
+  background: none;
+}
+.home header a,
+.home header a:hover {
+  color: #fff;
+}
+.history-bg {
+  background: url("./images/slideBg.png") no-repeat 0 0;
+  width: 100%;
+  height: 800px;
+  background-size: cover;
+  position: relative;
+}
+.title {
+  font-size: 139px;
+  color: #ccc;
+  position: relative;
+}
+.title span {
+  position: absolute;
+  color: #000;
+  font-size: 40px;
+  display: inline-block;
+  top: 85px;
+  left: 150px;
+}
+.team-bg {
+  background: url("./images/Page2Bg.png") no-repeat 0 0;
+  width: 100%;
+  height: 800px;
+  background-size: cover;
+  padding-top: 100px;
+}
+.team-schedule {
+  width: 300px;
+  background-color: #fff;
+  opacity: 0.8;
+}
+h4 {
+  padding: 10px;
+  color: #414f6b;
+}
+.team-schedule li {
+  border: none !important;
+  padding: 10px;
+}
+.content-center {
+  width: 70%;
+  margin: auto;
+}
+.navbar {
+  padding: 0px !important;
+}
+nav {
+  background-color: #414f6b;
+}
+.navbar-nav .nav-item.active {
+  background-color: #b0b4be !important;
+}
+.navbar-nav .nav-item.active .nav-link {
+  color: #414f6b !important;
+}
+.navbar-nav .nav-item .nav-link {
+  color: #b0b4be !important;
+}
+.carousel-inner > .item > a > img,
+.carousel-inner > .item > img,
+.img-responsive,
+.thumbnail a > img,
+.thumbnail > img {
+  display: inline-block !important;
+  width: 24%;
+}
+.carousel-indicators {
+  bottom: -35px;
+}
+.slider {
+  background-color: #414f6b;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
